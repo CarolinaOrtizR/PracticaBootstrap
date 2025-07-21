@@ -27,6 +27,7 @@ div.container{
     align-content: center;
     text-align: center;
     margin-top: 20px;
+    padding: 2rem;
 }
 
 div.container#cards{
@@ -34,16 +35,23 @@ div.container#cards{
     align-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 5rem;
 }
 
 div.card{
     width: 18rem;
+    height: 22rem;
     align-items: center;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 2rem;
+}
+
+img.card-img-top{
+    width: 18rem;
 }
 
 h1{
+    color: var(--secondary-color);
     text-align: center;
     font-size: 35px;
 }
@@ -60,11 +68,26 @@ h3{
     font-size: 20px;
 }
 
+h5.card-title{
+    color: var(--hg-color);
+}
+
 p.paragraph{
     text-align: center;
 }
 
-nav.navbar navbar-expand-lg bg-body-tertiary
-{
-    background-color: var(--primary-color);
+div.container-fluid#navDiv{
+    background-color: var(--hg-color);
+}
+
+div.container-fluid#navDiv a{
+    color: aliceblue;
+}
+
+div.card#sloth{
+    width: 18rem;
+    height: 28rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
 }

@@ -1,0 +1,70 @@
+html {
+    /*Variables en CSS*/
+    /*
+
+    Para definir una variable necesitamos colocar "--" antes del nombre de la variable
+
+    */
+    /* Paleta de colores */
+    --bg-color: #FBFBFB;
+    --primary-color: #D4EBF5;
+    --hg-color: #77A4F8;
+    --secondary-color: #D7D0F9;
+    background-color: var(--bg-color);
+    color: var(--hg-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+div.container{
+    background-color: var(--primary-color);
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.container#cards{
+    background-color: var(--secondary-color);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.card{
+    width: 18rem;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: purple;
+}
+
+h3{
+    text-align: center;
+    color: palevioletred;
+    font-size: 20px;
+}
+
+p.paragraph{
+    text-align: center;
+}
+
+nav.navbar navbar-expand-lg bg-body-tertiary
+{
+    background-color: var(--primary-color);
+}
